@@ -399,7 +399,8 @@ span:hover {
 
 
 }
+
 hr.line1 {
-    border: 0.5px solid #348EE0;
-    width: 420px;
+    border: 2px solid #348EE0;
+    width: 500px;
 }
