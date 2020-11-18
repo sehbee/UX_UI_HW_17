@@ -30,9 +30,10 @@ header {
     justify-content: flex-end;
     width: 73%;
     align-items: center;
+    padding-right: 8.33%;
 }
 
-.home, .work, .fun, .about {
+.home, .about {
     padding: 25px;
     text-decoration: none;
     font-family: Avenir Next;
@@ -42,22 +43,39 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.home:hover, .work:hover, .fun:hover, .about:hover {
-    color: #348EE0;
+.work, .fun {
+    padding: 20px;
+    padding-right: 0px;
+    text-decoration: none;
+    font-family: Avenir Next;
+    text-transform: uppercase;
+    color: #2F2F2F;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s; 
+}
+
+.work-arrow, .fun-arrow {
+    padding-right: 20px;
+    padding-left: 0px;
 }
 
 
+
+.home:hover, .work:hover, .fun:hover, .about:hover {
+    color: #348EE0;
+}
 
 .logodiv{
     display: inline-block;
     width: 23%;
     vertical-align: middle;
+    margin-left: 8.33%;
 }
 
 .logo {
     display: flex;
     justify-content: flex-end;
-    max-width: 100px;
+    max-width: 125px;
     height: auto;
     padding: 2%;
 }
@@ -99,7 +117,17 @@ h2{
 
 .work-link {
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
+
+.down-arrow {
+    width: 10px;
+    height: 10px;
+    padding-left: 10px;
+    filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
+}
+
 
 .work-link h3 {
     font-size: 13px;
@@ -108,7 +136,12 @@ h2{
     font-weight: 300;
     letter-spacing: 2px;
     text-align: center;
+    color: #1E1E1E;
+    transition: all 0.2s ease 0s;
+}
 
+.work-link h3:hover {
+    color: #348EE0;
 }
 
 .portfolio_links {
@@ -355,12 +388,13 @@ span {
     font-weight: 600;
     -webkit-text-fill-color: #FCFCFC;
     -webkit-text-stroke: 1.5px;
-    
+    transition: all 0.2s ease 0s;
   
 }
 
 span:hover {
-    content: "New text";
+    -webkit-text-fill-color: #5399da;
+    -webkit-text-stroke-color: #5399da;
 }
 
 
