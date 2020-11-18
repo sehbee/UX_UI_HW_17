@@ -82,13 +82,14 @@ h1{
     margin: 0px 5px 0px 5px;
     font-family: BlackJack, sans-serif;
     font-weight: 100;
-    
+    color: #1E1E1E;
 }
 h2{ 
     margin: 0px 5px 0px 5px;
     font-family: Avenir Next;
     font-weight: 200;
     font-size: 40px;
+    color: #1E1E1E;
 }
 
 .work-link {
@@ -110,9 +111,33 @@ h2{
 
 }
 
-.portfolio_link {
+.portfolio_link1 {
     margin: 0% 18% 5% 18%;
-    background-color: #F8F8F8;
+    background-color: #6BB2A0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: 425px;
+    border: 1px solid #D4D4D4;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.portfolio_link2 {
+    margin: 0% 18% 5% 18%;
+    background-color: #2E5F88;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: 425px;
+    border: 1px solid #D4D4D4;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.portfolio_link3 {
+    margin: 0% 18% 5% 18%;
+    background-color: #8EAEC9;
     border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -127,6 +152,7 @@ h2{
     width: 35%;
     height: 220px;
     margin-left: 22%;
+    color: #F5F5F5
 }
 
 .portfoliolink-content h3 {
@@ -157,6 +183,7 @@ h2{
     width: 35%;
     height: 220px;
     margin-left: 15%;
+    color: #F5F5F5
 }
 
 .portfoliolink3-content {
@@ -164,6 +191,7 @@ h2{
     width: 35%;
     height: 220px;
     margin-left: 15%;
+    color: #F5F5F5
 }
 
 
@@ -291,5 +319,4 @@ span {
 hr.line1 {
     border: 0.5px solid #348EE0;
     width: 420px;
-
 }
