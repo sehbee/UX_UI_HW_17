@@ -39,6 +39,11 @@ header {
     text-transform: uppercase;
     color: #2F2F2F;
     letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.home:hover, .work:hover, .fun:hover, .about:hover {
+    color: #348EE0;
 }
 
 
@@ -108,7 +113,6 @@ h2{
 
 .portfolio_links {
     padding: 20% 0 0 0;
-
 }
 
 .portfolio_link1 {
@@ -119,8 +123,13 @@ h2{
     justify-content: space-evenly;
     overflow: hidden;
     height: 425px;
-    border: 1px solid #D4D4D4;
-    box-shadow: 3px 3px 5px grey;
+    transition: all 0.2s ease 0s;
+}
+
+.portfolio_link1:hover {
+    transform: scale(1.02);
+    background-color: #6dc9b2;
+    box-shadow: 3px 3px 10px grey;
 }
 
 .portfolio_link2 {
@@ -131,8 +140,13 @@ h2{
     justify-content: space-evenly;
     overflow: hidden;
     height: 425px;
-    border: 1px solid #D4D4D4;
-    box-shadow: 3px 3px 5px grey;
+    transition: all 0.2s ease 0s;
+}
+
+.portfolio_link2:hover {
+    transform: scale(1.02);
+    background-color: #2f6796;
+    box-shadow: 3px 3px 10px grey;
 }
 
 .portfolio_link3 {
@@ -143,8 +157,7 @@ h2{
     justify-content: space-evenly;
     overflow: hidden;
     height: 425px;
-    border: 1px solid #D4D4D4;
-    box-shadow: 3px 3px 5px grey;
+    
 }
 
 .portfoliolink-content {
@@ -209,6 +222,7 @@ h2{
     font-weight: 500;
 }
 
+
 .portfoliolink2-content p {
     font-family: Avenir Next;
     font-size: 20px;
@@ -221,11 +235,15 @@ h2{
     margin: 10% 0% 0 40%;
     max-width: 400px;
     height: auto;
+   
 }
+
+
 .portfolio2img {
     margin: 12% 20% 0 20%;
     max-width: 500px;
     height: auto;
+    
 }
 
 .portfolio3img {
@@ -275,18 +293,24 @@ h2{
 .footer-content h5{
     font-family: BlackJack;
     font-size: 50px;
-   
+    color: #2F2F2F;
     text-align: center;
     margin-bottom: 0;
+    transition: all 0.2s ease 0s;
 
 }
 
+.footer-content h5:hover {
+    text-shadow: 2px 2px lightgrey;
+    color: #348EE0;
+}
 .footer_images {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 0;
+    color: #2F2F2F
 }
 
 .linkedin, .facebook {
@@ -294,18 +318,36 @@ h2{
     height: 35px;
   
     padding: 6px;
+    transition: all 0.2s ease 0s;
+}
+
+.linkedin:hover, .facebook:hover{
+    width: 40px;
+    height: 40px;
 }
 
 .email {
     width: 41px;
     height: 41px;
     padding: 3px;
+    transition: all 0.2s ease 0s;
 }
 
 .instagram {
     width: 46px;
     height: 46px;
     padding: 3px;
+    transition: all 0.2s ease 0s;
+}
+
+.instagram:hover {
+    width: 51px;
+    height: 51px;
+}
+
+.email:hover{
+    width: 46px;
+    height: 46px;
 }
 
 span {
@@ -313,9 +355,16 @@ span {
     font-weight: 600;
     -webkit-text-fill-color: #FCFCFC;
     -webkit-text-stroke: 1.5px;
+    
   
 }
 
+span:hover {
+    content: "New text";
+}
+
+
+}
 hr.line1 {
     border: 0.5px solid #348EE0;
     width: 420px;
